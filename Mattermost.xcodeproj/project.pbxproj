@@ -190,7 +190,7 @@
 				TargetAttributes = {
 					F255FCAA1AC9AC1300FF6E23 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = UQ8HT4Q2XM;
+						DevelopmentTeam = N7VNY4MNDW;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -388,7 +388,7 @@
 				INFOPLIST_FILE = Mattermost/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.Mattermost;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opennms.chat;
 				PRODUCT_NAME = Mattermost;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -404,7 +404,7 @@
 				INFOPLIST_FILE = Mattermost/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.Mattermost;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opennms.chat;
 				PRODUCT_NAME = Mattermost;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

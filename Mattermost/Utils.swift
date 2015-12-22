@@ -32,7 +32,11 @@ class Utils {
         if let v = defaults.stringForKey(key) {
             return v
         }
-        
+      
+        if (key == CURRENT_URL) {
+            return "https://chat.opennms.com/opennms"
+        }
+
         return ""
     }
     

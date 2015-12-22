@@ -42,6 +42,12 @@ class LoginViewController: UIViewController, UITextFieldDelegate, MattermostApiP
     }
     
     @IBAction func proceedClick(sender: AnyObject) {
+        Utils.setTeamUrl("https://chat.opennms.com/opennms");
+        api.initBaseUrl();
+        let defaults = NSUserDefaults.standardUserDefaults()
+        let teamName = defaults.stringForKey(CURRENT_TEAM_NAME)
+        
+        api.findTeamByName(teamName!)
         api.login(emailField.text!.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet()).lowercaseString, password: passwordField.text!)
     }
     
